@@ -1,22 +1,7 @@
-import Button from "./Button";
+import Accordion from "./components/Accordion";
 
 function App() {
-  return (
-    <div>
-      <div>
-        <Button></Button>
-      </div>
-      <div>
-        <Button></Button>
-      </div>
-      <div>
-        <Button></Button>
-      </div>
-      <div>
-        <Button></Button>
-      </div>
-    </div>
-  );
+  return <Accordion />;
 }
 
 export default App;
